@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BEATBOX</title>
+    <style>
+        body{
+            background-image:url("music_jpg.jpg");
+            background-size: cover;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+        }
+        #pree{
+            color: rgb(223, 220, 221);
+            font-size:0.9cm;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial, sans-serif';
+            text-align:center;
+            margin-left: 14cm;
+            margin-top: 0.5cm;
+            
+        }
+        h1{
+            color: rgb(192, 52, 117);
+            text-align:center;
+            font-family:'Times New Roman', Times, serif;
+        }
+        #hello{
+            border: 4px solid rgb(51, 7, 121);
+            border-radius:35%;
+            width: 350px; 
+            margin-left: 4cm;
+            margin-top: 0.005cm;
+            text-align: center;
+        }
+        #mymood{
+            text-align: left;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(51, 7, 121);
+            padding: 1em 0;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 15px;
+            font-family: Arial, sans-serif;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        .navbar a:hover {
+            background-color: rgb(126, 14, 70);
+            border-radius: 5px;}
+
+            .mood {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                width: 100%;
+            }
+            .mood img{
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+            }
+            section{
+                text-align: center;
+                color: rgb(235, 230, 232);
+            }
+            .-container {
+                width: 50%;
+                margin: auto;
+                text-align: center;
+                overflow: hidden;
+                position: relative;
+                color: azure;
+                border:4px solid rgb(126, 14, 70);
+                border-radius: 10%;
+            }
+            .mood img:hover{
+                transform:translate(-5px);
+            }
+            h2{
+                color: white;
+            }
+            form{
+                text-shadow:2px;
+                margin-left:1cm;
+            }
+            #foot{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: centre;
+            }
+    </style>
+</head>
+<body> 
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Genres</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div id="hello">
+        <h1>Let the Music Be Your Compass</h1>
+    </div>
+    <div id="102">
+        <PRE id="pree">
+            <b><i>Mood ko krna h rock,
+                                     then come to BEATBOX🎧 </i></b></PRE>
+    </div>
+    <div class="-container">
+        <div class="text-box active">
+            <p><b><I>Welcome to BEATBOX – Your Ultimate Music Destination!</b><br>
+                Music has the power to uplift your spirits, fuel your passion, and accompany you through every emotion. 
+                Whether you’re feeling happy, sad, excited, or just looking to vibe, BEATBOX is here to set the right mood for you.<br>
+                🎵 <b>Discover Your Sound</b> – Explore different genres and find tracks that match your mood.<br>
+                🎧 <b>Personalized Playlists</b> – Let us curate the perfect playlist based on your emotions.</I><br>
+                🔥 <b>Trending Now</b> – Stay updated with the latest and hottest music hits.
+            </p>
+        </div>
+    </div>
+
+
+    <section class="SELECT YOUR MOOD">
+        <h2 class="section-title">SELECT YOUR MOOD</h2>
+        <div class="mood">
+            <div class="happy">
+                <a href="happy.html"><img src="happy_image.jpg" alt="happy"></a>   
+                <p><B><a href="happy.html">happy</a></B></p>
+            </div>
+            <div class="sad">
+               <a href="sad.html"><img src="sad_image.jpg" alt="sad"></a> 
+                <P><B><a href="sad.html">SAD</a></B></P>
+            </div>
+            <div class="angry">
+                <a href="angry.html"><img src="angry_image.jpg" alt="angry"></a>
+             <P><B><a href="angry.html">ANGRY</a></B></P>
+            </div>
+            <div class="alone">
+               <a href="alone.html"><img src="alone_image.jpg" alt="alone"></a>
+                <P><B><a href="alone.html">ALONE</a></B></P>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <h1 id="foot">
+            GIVE YOUR FEEDBACK
+        </h1>
+        <FORM action="/action.php" border="0" width="30 height=50">
+            <input type="Email id"placeholder="Email id">
+            <br>
+            <input type="Mobile number"placeholder="Mobile number">
+           <br><br>
+           <h2><b>Select your city</b></h2>
+           <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Rajasthan">Rajasthan</option>
+           </select>
+           <br><br>
+           <textarea name="feedback" id="101" placeholder="please give your feedback" rows="5">
+           </textarea>
+    <input type="submit" value="submit">
+          </FORM>
+
+
+
+        
+    </footer>
+
+</body>
+</html>
